@@ -1,0 +1,24 @@
+git init 
+git config --global user.name 'usersname'
+git config --global user.email 'mail'
+git add .
+git status
+git commit
+git commit -m "notice"
+touch .gitignore
+touch log.txt
+git add .
+git commit
+git branch -m name1(la beghiti tebadal men master l chi 7aja akhera)
+git checkout name1
+git checkout master
+git merge name1
+git remote add origin cheminrpository/github
+git remote
+git push -u origin master
+-----------------
+users: nom,prenom,email,password,isadmin,qrcode_path->done
+categories: nom
+products: nom,categorie_id,qte,prix
+paniers:user_id,product_id,qte_prd,prix_total,status.
+https://www.youtube.com/watch?v=e0z69J01zEs&t=510s
